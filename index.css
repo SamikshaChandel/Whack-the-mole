@@ -1,0 +1,40 @@
+*{
+    overflow: hidden;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/whack-a-mole.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+button:hover{
+    background-color: #45a049;
+}
